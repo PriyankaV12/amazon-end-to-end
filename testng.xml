@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="All Test Suite">
+
+    <listeners>
+        <listener class-name="mainTestComponents.listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/priyankaverma/amazonFramework">
+        <classes>
+            <class name="tests.homePage"/>
+            <class name="tests.errorValidation"/>
+            <class name="tests.signInFunctionality"/>
+            <class name="tests.shoppingFunctionality"/>
+            <class name="tests.productDetails"/>
+        </classes>
+    </test>
+</suite>

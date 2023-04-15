@@ -1,0 +1,37 @@
+---
+#browser: firefox
+#driverKey: webdriver.gecko.driver
+#driverValue: /Users/priyankaverma/Desktop/geckodriver
+#requiredBrowser: firefox
+browser: chrome
+driverKey: webdriver.chrome.driver
+driverValue: /Users/priyankaverma/Desktop/chromedriver
+requiredBrowser: chrome
+url: https://amazon.com
+item: Coffee machine
+expectedlinkCount: 38
+deliverText: Deliver to
+productNeeded : HBNO Tea Tree Oil for Skin 4oz (120 ml) - 100% Pure Tea Tree Oil - Bring Refreshing Aroma of Tea Trea Essential Oil - Perfect Tea Tree Oil for Acne & Skin Therapy
+key : Tea Tree Oil
+#quantityText : 1
+quantity : 3
+itemRemovedText : HBNO Tea Tree Oil for Skin 4oz (120 ml) - 100% Pure Tea Tree Oil... was removed from Shopping Cart.
+signIn : Sign in
+invalidText: "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
+resultText: 1-48 of 69 results for "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
+#resultText: "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
+charText: 67299161781191
+noResultText: No results for
+sortText: Newest Arrivals
+visibleText: 3
+textAfterValidSearch: 1-48 of over 10,000 results for "Tea Tree Oil"
+deals: Today's Deals
+productSearch: nivea cream
+productRequired: NIVEA Intense Healing Cream, Moisturizing Body Cream for Dry Skin, 13.5 oz jar
+priceOfProduct: $6.29
+present: true
+review: 182 ratings
+stock: In Stock
+cartMessage: Added to cart
+
+...

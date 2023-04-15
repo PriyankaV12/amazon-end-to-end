@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="mainTestComponents.listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/priyankaverma/amazonFramework">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Smoke"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+<!--            <class name="tests.grouping"/>-->
+        </classes>
+    </test>
+</suite>
