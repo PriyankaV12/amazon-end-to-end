@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Amazon Landing page Testing</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr. 10, 2023 06:21:20 p.m.</span></a>
+<a href="#"><span class="badge badge-primary">Apr. 18, 2023 12:27:43 p.m.</span></a>
 </li>
 </ul>
 </div>
@@ -85,9 +85,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">categorizedProducts</p>
+            <p class="name">addProductAfterSignIn</p>
             <p class="text-sm">
-              <span>6:21:36 p.m.</span> / <span>00:00:09:716</span>
+              <span>12:28:02 p.m.</span> / <span>00:00:09:001</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -95,18 +95,18 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">categorizedProducts</h5>
-<span class='badge badge-success'>04.10.2023 6:21:36 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:21:46 p.m.</span>
-<span class='badge badge-default'>00:00:09:716</span>
+<h5 class="test-status text-fail">addProductAfterSignIn</h5>
+<span class='badge badge-success'>04.18.2023 12:28:02 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:28:11 p.m.</span>
+<span class='badge badge-default'>00:00:09:001</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='/Users/priyankaverma/amazonFramework/categorizedProducts.png' src="/Users/priyankaverma/amazonFramework/categorizedProducts.png">
-    <div class="title">categorizedProducts</div>
+<img data-featherlight='/Users/priyankaverma/amazonFramework/addProductAfterSignIn.png' src="/Users/priyankaverma/amazonFramework/addProductAfterSignIn.png">
+    <div class="title">addProductAfterSignIn</div>
     </div></div>
 <div class="detail-body mt-4">
 <table class="table table-sm">
@@ -114,34 +114,39 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:36 p.m.</td>
+        <td>12:28:02 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:36 p.m.</td>
+        <td>12:28:02 p.m.</td>
         <td>
-          class tests.homePage
+          class tests.shoppingFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:36 p.m.</td>
+        <td>12:28:02 p.m.</td>
         <td>
-          tests.homePage
+          tests.shoppingFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:21:41 p.m.</td>
+        <td>12:28:09 p.m.</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: true expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at tests.homePage.categorizedProducts(homePage.java:79)
+          <textarea readonly class="code-block">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at pageObjects.signInPage.signInForShopping(signInPage.java:145)
+	at tests.shoppingFunctionality.addProductAfterSignIn(shoppingFunctionality.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,9 +176,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">addProductAfterSignIn</p>
+            <p class="name">categorizedProducts</p>
             <p class="text-sm">
-              <span>6:21:39 p.m.</span> / <span>00:01:09:340</span>
+              <span>12:28:04 p.m.</span> / <span>00:00:08:421</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -181,10 +186,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">addProductAfterSignIn</h5>
-<span class='badge badge-success'>04.10.2023 6:21:39 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:22:48 p.m.</span>
-<span class='badge badge-default'>00:01:09:340</span>
+<h5 class="test-status text-pass">categorizedProducts</h5>
+<span class='badge badge-success'>04.18.2023 12:28:04 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:28:12 p.m.</span>
+<span class='badge badge-default'>00:00:08:421</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -196,28 +201,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:04 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:04 p.m.</td>
         <td>
-          class tests.shoppingFunctionality
+          class tests.homePage
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:04 p.m.</td>
         <td>
-          tests.shoppingFunctionality
+          tests.homePage
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:22:48 p.m.</td>
+        <td>12:28:12 p.m.</td>
         <td>
           Test Passed.
         </td>
@@ -234,7 +239,7 @@
           <div class="test-detail">
             <p class="name">validation</p>
             <p class="text-sm">
-              <span>6:21:39 p.m.</span> / <span>00:00:02:913</span>
+              <span>12:28:05 p.m.</span> / <span>00:00:03:123</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -243,9 +248,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">validation</h5>
-<span class='badge badge-success'>04.10.2023 6:21:39 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:21:42 p.m.</span>
-<span class='badge badge-default'>00:00:02:913</span>
+<span class='badge badge-success'>04.18.2023 12:28:05 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:28:08 p.m.</span>
+<span class='badge badge-default'>00:00:03:123</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -257,28 +262,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:05 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:05 p.m.</td>
         <td>
           class tests.errorValidation
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:39 p.m.</td>
+        <td>12:28:05 p.m.</td>
         <td>
           tests.errorValidation
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:21:42 p.m.</td>
+        <td>12:28:08 p.m.</td>
         <td>
           Test Passed.
         </td>
@@ -293,9 +298,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createNewAccount</p>
+            <p class="name">validLogin</p>
             <p class="text-sm">
-              <span>6:21:42 p.m.</span> / <span>00:00:11:486</span>
+              <span>12:28:07 p.m.</span> / <span>00:00:19:596</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -303,10 +308,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createNewAccount</h5>
-<span class='badge badge-success'>04.10.2023 6:21:42 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:21:54 p.m.</span>
-<span class='badge badge-default'>00:00:11:486</span>
+<h5 class="test-status text-pass">validLogin</h5>
+<span class='badge badge-success'>04.18.2023 12:28:07 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:28:26 p.m.</span>
+<span class='badge badge-default'>00:00:19:596</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -318,28 +323,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:42 p.m.</td>
+        <td>12:28:07 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:42 p.m.</td>
+        <td>12:28:07 p.m.</td>
         <td>
           class tests.signInFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:42 p.m.</td>
+        <td>12:28:07 p.m.</td>
         <td>
           tests.signInFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:21:54 p.m.</td>
+        <td>12:28:26 p.m.</td>
         <td>
           Test Passed.
         </td>
@@ -349,25 +354,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="fail" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">productDescription</p>
+            <p class="name">footerSection</p>
             <p class="text-sm">
-              <span>6:21:45 p.m.</span> / <span>00:00:31:657</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:28:30 p.m.</span> / <span>00:00:46:167</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">productDescription</h5>
-<span class='badge badge-success'>04.10.2023 6:21:45 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:22:17 p.m.</span>
-<span class='badge badge-default'>00:00:31:657</span>
+<h5 class="test-status text-fail">footerSection</h5>
+<span class='badge badge-success'>04.18.2023 12:28:30 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:29:16 p.m.</span>
+<span class='badge badge-default'>00:00:46:167</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -379,895 +384,55 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:45 p.m.</td>
+        <td>12:28:30 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:45 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:21:45 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:22:17 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">invalidUsername</p>
-            <p class="text-sm">
-              <span>6:22:22 p.m.</span> / <span>00:00:07:837</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">invalidUsername</h5>
-<span class='badge badge-success'>04.10.2023 6:22:22 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:22:29 p.m.</span>
-<span class='badge badge-default'>00:00:07:837</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:22 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:22 p.m.</td>
-        <td>
-          class tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:22 p.m.</td>
-        <td>
-          tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:22:29 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">footerSection</p>
-            <p class="text-sm">
-              <span>6:22:36 p.m.</span> / <span>00:01:15:530</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">footerSection</h5>
-<span class='badge badge-success'>04.10.2023 6:22:36 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:23:51 p.m.</span>
-<span class='badge badge-default'>00:01:15:530</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:36 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:36 p.m.</td>
+        <td>12:28:30 p.m.</td>
         <td>
           class tests.homePage
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:36 p.m.</td>
-        <td>
-          tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:23:51 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productReviews</p>
-            <p class="text-sm">
-              <span>6:22:40 p.m.</span> / <span>00:00:52:732</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">productReviews</h5>
-<span class='badge badge-success'>04.10.2023 6:22:40 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:23:32 p.m.</span>
-<span class='badge badge-default'>00:00:52:732</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:40 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:40 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:40 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:23:32 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="9"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">leavingPasswordBlank</p>
-            <p class="text-sm">
-              <span>6:22:46 p.m.</span> / <span>00:00:19:975</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">leavingPasswordBlank</h5>
-<span class='badge badge-success'>04.10.2023 6:22:46 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:23:06 p.m.</span>
-<span class='badge badge-default'>00:00:19:975</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:46 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:46 p.m.</td>
-        <td>
-          class tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:22:46 p.m.</td>
-        <td>
-          tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:23:06 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">leavingUsernameBlank</p>
-            <p class="text-sm">
-              <span>6:23:52 p.m.</span> / <span>00:00:08:891</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">leavingUsernameBlank</h5>
-<span class='badge badge-success'>04.10.2023 6:23:52 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:24:01 p.m.</span>
-<span class='badge badge-default'>00:00:08:891</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:23:52 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:23:52 p.m.</td>
-        <td>
-          class tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:23:52 p.m.</td>
-        <td>
-          tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:24:01 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="11"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">homePageSignIn</p>
-            <p class="text-sm">
-              <span>6:24:10 p.m.</span> / <span>00:00:11:822</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">homePageSignIn</h5>
-<span class='badge badge-success'>04.10.2023 6:24:10 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:24:21 p.m.</span>
-<span class='badge badge-default'>00:00:11:822</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          class tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:24:21 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="12"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productSellerRating</p>
-            <p class="text-sm">
-              <span>6:24:10 p.m.</span> / <span>00:00:38:078</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">productSellerRating</h5>
-<span class='badge badge-success'>04.10.2023 6:24:10 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:24:48 p.m.</span>
-<span class='badge badge-default'>00:00:38:078</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:24:48 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="13"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">addProductWithoutSignIn</p>
-            <p class="text-sm">
-              <span>6:24:10 p.m.</span> / <span>00:00:50:959</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">addProductWithoutSignIn</h5>
-<span class='badge badge-success'>04.10.2023 6:24:10 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:25:01 p.m.</span>
-<span class='badge badge-default'>00:00:50:959</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:10 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:25:01 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="14"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">validLogin</p>
-            <p class="text-sm">
-              <span>6:24:48 p.m.</span> / <span>00:00:20:207</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">validLogin</h5>
-<span class='badge badge-success'>04.10.2023 6:24:48 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:25:09 p.m.</span>
-<span class='badge badge-default'>00:00:20:207</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:48 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:48 p.m.</td>
-        <td>
-          class tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:24:48 p.m.</td>
-        <td>
-          tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:25:09 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="15"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">buyNowButton</p>
-            <p class="text-sm">
-              <span>6:25:15 p.m.</span> / <span>00:00:31:885</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">buyNowButton</h5>
-<span class='badge badge-success'>04.10.2023 6:25:15 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:25:47 p.m.</span>
-<span class='badge badge-default'>00:00:31:885</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:15 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:15 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:15 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:25:47 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="16"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">hovering</p>
-            <p class="text-sm">
-              <span>6:25:26 p.m.</span> / <span>00:00:19:604</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">hovering</h5>
-<span class='badge badge-success'>04.10.2023 6:25:26 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:25:45 p.m.</span>
-<span class='badge badge-default'>00:00:19:604</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:26 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:26 p.m.</td>
-        <td>
-          class tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:26 p.m.</td>
-        <td>
-          tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:25:45 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="17"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productSpecifications</p>
-            <p class="text-sm">
-              <span>6:25:32 p.m.</span> / <span>00:00:35:600</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">productSpecifications</h5>
-<span class='badge badge-success'>04.10.2023 6:25:32 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:07 p.m.</span>
-<span class='badge badge-default'>00:00:35:600</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:32 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:32 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:25:32 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:26:07 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="18"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">validUsername</p>
-            <p class="text-sm">
-              <span>6:26:03 p.m.</span> / <span>00:00:12:854</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">validUsername</h5>
-<span class='badge badge-success'>04.10.2023 6:26:03 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:16 p.m.</span>
-<span class='badge badge-default'>00:00:12:854</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:03 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:03 p.m.</td>
-        <td>
-          class tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:03 p.m.</td>
-        <td>
-          tests.signInFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:26:16 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="19"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productLinks</p>
-            <p class="text-sm">
-              <span>6:26:19 p.m.</span> / <span>00:00:06:618</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">productLinks</h5>
-<span class='badge badge-success'>04.10.2023 6:26:19 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:25 p.m.</span>
-<span class='badge badge-default'>00:00:06:618</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='/Users/priyankaverma/amazonFramework/productLinks.png' src="/Users/priyankaverma/amazonFramework/productLinks.png">
-    <div class="title">productLinks</div>
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:19 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:19 p.m.</td>
-        <td>
-          class tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:19 p.m.</td>
+        <td>12:28:30 p.m.</td>
         <td>
           tests.homePage
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:26:20 p.m.</td>
+        <td>12:29:16 p.m.</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [38] but found [27]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1418)
-	at org.testng.Assert.assertEquals(Assert.java:1448)
-	at tests.homePage.productLinks(homePage.java:62)
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.121)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa689b95dfa0b33dae21641605b525b5, sendKeysToElement {id=a576c87d-b157-4381-a9c2-ad4313028a70, value=[Ljava.lang.CharSequence;@2f7777a8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54959/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on MAC (fa689b95dfa0b33dae21641605b525b5)] -> xpath: //div[@class='navFooterLinkCol navAccessibility'][2]]] -> tag name: a]
+Session ID: fa689b95dfa0b33dae21641605b525b5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at pageObjects.landingPage.secondColumnTitles(landingPage.java:137)
+	at tests.homePage.footerSection(homePage.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1287,502 +452,41 @@
           
         </td>
       </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="20"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productSuggestions</p>
-            <p class="text-sm">
-              <span>6:26:24 p.m.</span> / <span>00:00:29:130</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">productSuggestions</h5>
-<span class='badge badge-success'>04.10.2023 6:26:24 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:53 p.m.</span>
-<span class='badge badge-default'>00:00:29:130</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:26:53 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="21"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">charText</p>
-            <p class="text-sm">
-              <span>6:26:24 p.m.</span> / <span>00:00:12:748</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">charText</h5>
-<span class='badge badge-success'>04.10.2023 6:26:24 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:37 p.m.</span>
-<span class='badge badge-default'>00:00:12:748</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:24 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:26:37 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="22"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">productsContainerDisplay</p>
-            <p class="text-sm">
-              <span>6:26:52 p.m.</span> / <span>00:00:02:688</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">productsContainerDisplay</h5>
-<span class='badge badge-success'>04.10.2023 6:26:52 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:26:55 p.m.</span>
-<span class='badge badge-default'>00:00:02:688</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:52 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:52 p.m.</td>
-        <td>
-          class tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:26:52 p.m.</td>
-        <td>
-          tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:26:55 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="23"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">editQuantity</p>
-            <p class="text-sm">
-              <span>6:27:03 p.m.</span> / <span>00:00:00:001</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">editQuantity</h5>
-<span class='badge badge-success'>04.10.2023 6:27:03 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:27:03 p.m.</span>
-<span class='badge badge-default'>00:00:00:001</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:03 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:03 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:03 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="24"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">validText</p>
-            <p class="text-sm">
-              <span>6:27:06 p.m.</span> / <span>00:00:03:789</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">validText</h5>
-<span class='badge badge-success'>04.10.2023 6:27:06 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:27:10 p.m.</span>
-<span class='badge badge-default'>00:00:03:789</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:06 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:06 p.m.</td>
-        <td>
-          class tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:06 p.m.</td>
-        <td>
-          tests.homePage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:27:10 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="25"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">shippingInfo</p>
-            <p class="text-sm">
-              <span>6:27:11 p.m.</span> / <span>00:00:21:755</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">shippingInfo</h5>
-<span class='badge badge-success'>04.10.2023 6:27:11 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:27:32 p.m.</span>
-<span class='badge badge-default'>00:00:21:755</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:11 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:11 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:11 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:27:32 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="26"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">stockInfo</p>
-            <p class="text-sm">
-              <span>6:27:45 p.m.</span> / <span>00:00:17:484</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">stockInfo</h5>
-<span class='badge badge-success'>04.10.2023 6:27:45 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:28:03 p.m.</span>
-<span class='badge badge-default'>00:00:17:484</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:45 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:45 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:45 p.m.</td>
-        <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:28:03 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="27"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">editQuantity</p>
-            <p class="text-sm">
-              <span>6:27:56 p.m.</span> / <span>00:00:41:501</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">editQuantity</h5>
-<span class='badge badge-success'>04.10.2023 6:27:56 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:28:37 p.m.</span>
-<span class='badge badge-default'>00:00:41:501</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='/Users/priyankaverma/amazonFramework/editQuantity.png' src="/Users/priyankaverma/amazonFramework/editQuantity.png">
-    <div class="title">editQuantity</div>
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:56 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:56 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:27:56 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:28:35 p.m.</td>
+        <td>12:29:16 p.m.</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at tests.shoppingFunctionality.editQuantity(shoppingFunctionality.java:62)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.121)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa689b95dfa0b33dae21641605b525b5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54959}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54959/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa689b95dfa0b33dae21641605b525b5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at mainTestComponents.BaseTest.getScreenshot(BaseTest.java:62)
+	at mainTestComponents.listeners.onTestFailure(listeners.java:67)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -1799,26 +503,26 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="28"
+        <li class="test-item"  status="fail" test-id="6"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verifyImage</p>
+            <p class="name">addProductWithoutSignIn</p>
             <p class="text-sm">
-              <span>6:28:14 p.m.</span> / <span>00:00:19:213</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:28:31 p.m.</span> / <span>00:00:47:744</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyImage</h5>
-<span class='badge badge-success'>04.10.2023 6:28:14 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:28:33 p.m.</span>
-<span class='badge badge-default'>00:00:19:213</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<h5 class="test-status text-fail">addProductWithoutSignIn</h5>
+<span class='badge badge-success'>04.18.2023 12:28:31 p.m.</span>
+<span class='badge badge-danger'>04.18.2023 12:29:19 p.m.</span>
+<span class='badge badge-default'>00:00:47:744</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -1829,105 +533,60 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:14 p.m.</td>
+        <td>12:28:31 p.m.</td>
         <td>
           <span class='badge white-text blue'>Extent</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:14 p.m.</td>
+        <td>12:28:31 p.m.</td>
         <td>
-          class tests.productDetails
+          class tests.shoppingFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:14 p.m.</td>
+        <td>12:28:31 p.m.</td>
         <td>
-          tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:28:33 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="29"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verifyPrice</p>
-            <p class="text-sm">
-              <span>6:28:53 p.m.</span> / <span>00:00:23:402</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verifyPrice</h5>
-<span class='badge badge-success'>04.10.2023 6:28:53 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:29:16 p.m.</span>
-<span class='badge badge-default'>00:00:23:402</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='/Users/priyankaverma/amazonFramework/verifyPrice.png' src="/Users/priyankaverma/amazonFramework/verifyPrice.png">
-    <div class="title">verifyPrice</div>
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:53 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:53 p.m.</td>
-        <td>
-          class tests.productDetails
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:53 p.m.</td>
-        <td>
-          tests.productDetails
+          tests.shoppingFunctionality
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:29:15 p.m.</td>
+        <td>12:29:19 p.m.</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".a-price.a-text-price.a-size-medium.apexPriceToPay"}
-  (Session info: chrome=112.0.5615.49)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .a-size-medium-plus.a-color-base.sw-atc-text.a-text-bold (tried for 7 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at mainComponents.components.waitsVisibility(components.java:27)
+	at pageObjects.shoppingPageAfterSignIn.setAddToCartText(shoppingPageAfterSignIn.java:123)
+	at tests.shoppingFunctionality.addProductWithoutSignIn(shoppingFunctionality.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.121)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8bb0b508808054c115a4b6098e167edd, findElement {using=css selector, value=.a-price.a-text-price.a-size-medium.apexPriceToPay}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:63381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63381/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8bb0b508808054c115a4b6098e167edd
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+Command: [47953715dc207fd7e8873f3eaa8fca9a, findElement {using=css selector, value=.a-size-medium-plus.a-color-base.sw-atc-text.a-text-bold}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54954/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47953715dc207fd7e8873f3eaa8fca9a
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1942,469 +601,28 @@ Session ID: 8bb0b508808054c115a4b6098e167edd
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at pageObjects.productDetailsPage.setPriceDisplay(productDetailsPage.java:81)
-	at tests.productDetails.verifyPrice(productDetails.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 18 more
 </textarea>
           
         </td>
       </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="30"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">filterElements</p>
-            <p class="text-sm">
-              <span>6:28:54 p.m.</span> / <span>00:00:09:892</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">filterElements</h5>
-<span class='badge badge-success'>04.10.2023 6:28:54 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:29:04 p.m.</span>
-<span class='badge badge-default'>00:00:09:892</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:54 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:54 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:28:54 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:29:04 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="31"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">filterFunctionality</p>
-            <p class="text-sm">
-              <span>6:29:12 p.m.</span> / <span>00:00:05:826</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">filterFunctionality</h5>
-<span class='badge badge-success'>04.10.2023 6:29:12 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:29:18 p.m.</span>
-<span class='badge badge-default'>00:00:05:826</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:12 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:12 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:12 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:29:18 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="32"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">invalidText</p>
-            <p class="text-sm">
-              <span>6:29:24 p.m.</span> / <span>00:00:04:705</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">invalidText</h5>
-<span class='badge badge-success'>04.10.2023 6:29:24 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:29:28 p.m.</span>
-<span class='badge badge-default'>00:00:04:705</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:24 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:24 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:24 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:29:28 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="33"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">navigation</p>
-            <p class="text-sm">
-              <span>6:29:34 p.m.</span> / <span>00:00:05:463</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">navigation</h5>
-<span class='badge badge-success'>04.10.2023 6:29:34 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:29:39 p.m.</span>
-<span class='badge badge-default'>00:00:05:463</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:34 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:34 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:34 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:29:39 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="34"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">removeProductsFromCart</p>
-            <p class="text-sm">
-              <span>6:29:45 p.m.</span> / <span>00:00:15:702</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">removeProductsFromCart</h5>
-<span class='badge badge-success'>04.10.2023 6:29:45 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:30:01 p.m.</span>
-<span class='badge badge-default'>00:00:15:702</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:45 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:45 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:29:45 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:30:01 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="35"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">searchResult</p>
-            <p class="text-sm">
-              <span>6:30:07 p.m.</span> / <span>00:00:04:719</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">searchResult</h5>
-<span class='badge badge-success'>04.10.2023 6:30:07 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:30:11 p.m.</span>
-<span class='badge badge-default'>00:00:04:719</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:07 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:07 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:07 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:30:11 p.m.</td>
-        <td>
-          Test Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="36"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">sortFunctionality</p>
-            <p class="text-sm">
-              <span>6:30:16 p.m.</span> / <span>00:00:05:913</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">sortFunctionality</h5>
-<span class='badge badge-success'>04.10.2023 6:30:16 p.m.</span>
-<span class='badge badge-danger'>04.10.2023 6:30:22 p.m.</span>
-<span class='badge badge-default'>00:00:05:913</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='/Users/priyankaverma/amazonFramework/sortFunctionality.png' src="/Users/priyankaverma/amazonFramework/sortFunctionality.png">
-    <div class="title">sortFunctionality</div>
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:16 p.m.</td>
-        <td>
-          <span class='badge white-text blue'>Extent</span>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:16 p.m.</td>
-        <td>
-          class tests.shoppingFunctionality
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>6:30:16 p.m.</td>
-        <td>
-          tests.shoppingFunctionality
-        </td>
-      </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:30:21 p.m.</td>
+        <td>12:29:19 p.m.</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
-  (Session info: chrome=112.0.5615.49)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+          <textarea readonly class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.121)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [02ea62d62ec2ee8bbc70f051f6efb03a, findElement {using=id, value=twotabsearchtextbox}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:64000}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64000/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+Command: [47953715dc207fd7e8873f3eaa8fca9a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54954/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47953715dc207fd7e8873f3eaa8fca9a
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2415,21 +633,14 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-	at pageObjects.landingPage.textBox(landingPage.java:102)
-	at tests.shoppingFunctionality.sortFunctionality(shoppingFunctionality.java:117)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at mainTestComponents.BaseTest.getScreenshot(BaseTest.java:62)
+	at mainTestComponents.listeners.onTestFailure(listeners.java:67)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -2461,22 +672,22 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>3</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">3 tests</p>
+<p class="name">java.lang.IllegalArgumentException</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>3 failed</span>
+<h4>java.lang.IllegalArgumentException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -2489,23 +700,9 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:21:36 p.m.</td>
+<td>12:28:02 p.m.</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>categorizedProducts</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>18:26:19 p.m.</td>
-<td>
-<a href="#" class="linked" test-id='19' id='19'>productLinks</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>18:27:56 p.m.</td>
-<td>
-<a href="#" class="linked" test-id='27' id='27'>editQuantity</a>
+<a href="#" class="linked" test-id='1' id='1'>addProductAfterSignIn</a>
 </td>
 </tr>
 </tbody>
@@ -2517,12 +714,12 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 <span class="meta">
 <span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="name">org.openqa.selenium.NoSuchWindowException</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
+<h4>org.openqa.selenium.NoSuchWindowException</h4>
 <span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -2536,16 +733,49 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:28:53 p.m.</td>
+<td>12:28:30 p.m.</td>
 <td>
-<a href="#" class="linked" test-id='29' id='29'>verifyPrice</a>
+<a href="#" class="linked" test-id='5' id='5'>footerSection</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:30:16 p.m.</td>
+<td>12:28:31 p.m.</td>
 <td>
-<a href="#" class="linked" test-id='36' id='36'>sortFunctionality</a>
+<a href="#" class="linked" test-id='6' id='6'>addProductWithoutSignIn</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:28:31 p.m.</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>addProductWithoutSignIn</a>
 </td>
 </tr>
 </tbody>
@@ -2565,25 +795,25 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr. 10, 2023 06:21:20 p.m.</h3>
+<h3>Apr. 18, 2023 12:27:43 p.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr. 10, 2023 06:30:22 p.m.</h3>
+<h3>Apr. 18, 2023 12:29:19 p.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>31</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>5</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -2599,12 +829,12 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='86%'>
-<b>31</b> tests passed
+<div><small data-tooltip='50%'>
+<b>3</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='13%'><b>5</b> tests failed,
+<small data-tooltip='50%'><b>3</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -2622,10 +852,10 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='20%'><b>30</b> events passed</small></div>
+<div><small data-tooltip='11%'><b>3</b> events passed</small></div>
 <div>
-<small data-tooltip='3%'><b>5</b> events failed,
-<b data-tooltip='%'>108</b> others
+<small data-tooltip='19%'><b>5</b> events failed,
+<b data-tooltip='%'>18</b> others
 </small>
 </div>
 </div>
@@ -2641,7 +871,7 @@ Session ID: 02ea62d62ec2ee8bbc70f051f6efb03a
 </div></div>
 <script>
 var timeline = {
-"categorizedProducts":9.716,"addProductAfterSignIn":69.34,"validation":2.913,"createNewAccount":11.486,"productDescription":31.657,"invalidUsername":7.837,"footerSection":75.53,"productReviews":52.732,"leavingPasswordBlank":19.975,"leavingUsernameBlank":8.891,"homePageSignIn":11.822,"productSellerRating":38.078,"addProductWithoutSignIn":50.959,"validLogin":20.207,"buyNowButton":31.885,"hovering":19.604,"productSpecifications":35.6,"validUsername":12.854,"productLinks":6.618,"productSuggestions":29.13,"charText":12.748,"productsContainerDisplay":2.688,"editQuantity":0.001,"validText":3.789,"shippingInfo":21.755,"stockInfo":17.484,"editQuantity":41.501,"verifyImage":19.213,"verifyPrice":23.402,"filterElements":9.892,"filterFunctionality":5.826,"invalidText":4.705,"navigation":5.463,"removeProductsFromCart":15.702,"searchResult":4.719,"sortFunctionality":5.913
+"addProductAfterSignIn":9.001,"categorizedProducts":8.421,"validation":3.123,"validLogin":19.596,"footerSection":46.167,"addProductWithoutSignIn":47.744
 };
 </script>
 <div class="row">
@@ -2664,8 +894,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 31,
-failParent: 5,
+passParent: 3,
+failParent: 3,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -2681,11 +911,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 30,
+passEvents: 3,
 failEvents: 5,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 108
+infoEvents: 18
 };
 </script>        </div>
       </div>

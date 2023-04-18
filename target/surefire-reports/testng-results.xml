@@ -1,11 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-18T12:25:54 EDT" name="mainTestComponents.BaseTest" finished-at="2023-04-18T12:25:54 EDT" duration-ms="11">
+  <suite started-at="2023-04-18T12:27:44 EDT" name="All Test Suite" finished-at="2023-04-18T12:29:19 EDT" duration-ms="94690">
     <groups>
     </groups>
-    <test started-at="2023-04-18T12:25:54 EDT" name="Command line test" finished-at="2023-04-18T12:25:54 EDT" duration-ms="11">
-    </test> <!-- Command line test -->
-  </suite> <!-- mainTestComponents.BaseTest -->
+    <test started-at="2023-04-18T12:27:44 EDT" name="/Users/priyankaverma/amazonFramework" finished-at="2023-04-18T12:29:19 EDT" duration-ms="94690">
+      <class name="tests.signInFunctionality">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.signInFunctionality@2da59753]" started-at="2023-04-18T12:27:44 EDT" name="launchApplication" finished-at="2023-04-18T12:28:07 EDT" duration-ms="22395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validLogin()[pri:0, instance:tests.signInFunctionality@2da59753]" started-at="2023-04-18T12:28:07 EDT" name="validLogin" finished-at="2023-04-18T12:28:26 EDT" duration-ms="19596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:tests.signInFunctionality@2da59753]" started-at="2023-04-18T12:28:26 EDT" name="closing" finished-at="2023-04-18T12:28:26 EDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- tests.signInFunctionality -->
+      <class name="tests.errorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.errorValidation@2eee3069]" started-at="2023-04-18T12:27:44 EDT" name="launchApplication" finished-at="2023-04-18T12:28:05 EDT" duration-ms="20755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validation()[pri:0, instance:tests.errorValidation@2eee3069]" started-at="2023-04-18T12:28:05 EDT" name="validation" finished-at="2023-04-18T12:28:08 EDT" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:tests.errorValidation@2eee3069]" started-at="2023-04-18T12:28:08 EDT" name="closing" finished-at="2023-04-18T12:28:08 EDT" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- tests.errorValidation -->
+      <class name="tests.shoppingFunctionality">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.shoppingFunctionality@5629510]" started-at="2023-04-18T12:27:44 EDT" name="launchApplication" finished-at="2023-04-18T12:28:02 EDT" duration-ms="17432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addProductAfterSignIn()[pri:0, instance:tests.shoppingFunctionality@5629510]" started-at="2023-04-18T12:28:02 EDT" name="addProductAfterSignIn" finished-at="2023-04-18T12:28:09 EDT" duration-ms="7671" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at pageObjects.signInPage.signInForShopping(signInPage.java:145)
+at tests.shoppingFunctionality.addProductAfterSignIn(shoppingFunctionality.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductAfterSignIn -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:tests.shoppingFunctionality@5629510]" started-at="2023-04-18T12:28:11 EDT" name="closing" finished-at="2023-04-18T12:28:11 EDT" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.shoppingFunctionality@5629510]" started-at="2023-04-18T12:28:11 EDT" name="launchApplication" finished-at="2023-04-18T12:28:31 EDT" duration-ms="19926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+      </class> <!-- tests.shoppingFunctionality -->
+      <class name="tests.homePage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.homePage@6aa3a905]" started-at="2023-04-18T12:27:44 EDT" name="launchApplication" finished-at="2023-04-18T12:28:04 EDT" duration-ms="19487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="categorizedProducts()[pri:0, instance:tests.homePage@6aa3a905]" started-at="2023-04-18T12:28:04 EDT" name="categorizedProducts" finished-at="2023-04-18T12:28:12 EDT" duration-ms="8420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorizedProducts -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:tests.homePage@6aa3a905]" started-at="2023-04-18T12:28:12 EDT" name="closing" finished-at="2023-04-18T12:28:13 EDT" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.homePage@6aa3a905]" started-at="2023-04-18T12:28:13 EDT" name="launchApplication" finished-at="2023-04-18T12:28:30 EDT" duration-ms="17598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+      </class> <!-- tests.homePage -->
+    </test> <!-- /Users/priyankaverma/amazonFramework -->
+  </suite> <!-- All Test Suite -->
 </testng-results>

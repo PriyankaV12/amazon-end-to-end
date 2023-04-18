@@ -5,7 +5,8 @@
 #requiredBrowser: firefox
 browser: chrome
 driverKey: webdriver.chrome.driver
-driverValue: /Users/priyankaverma/Desktop/chromedriver
+#driverValue: /Users/priyankaverma/Desktop/chromedriver
+driverValue: /usr/bin/chromedriver
 requiredBrowser: chrome
 url: https://amazon.com
 item: Coffee machine
