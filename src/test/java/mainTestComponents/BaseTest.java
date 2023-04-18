@@ -62,7 +62,7 @@ public class BaseTest  extends gettersAndSetters{
         File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
 //        String filePathToSave =System.getProperty("user.dir") +"/" + testCaseName + ".png";
-        String filePathToSave = "job/amazon-framework-project/ws/";
+        String filePathToSave = "/job/amazon-framework-project/ws/";
         File file = new File(filePathToSave);
         FileUtils.copyFile(source, file);
         return filePathToSave;
