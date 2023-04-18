@@ -69,11 +69,9 @@ public class listeners extends BaseTest implements ITestListener
             e.printStackTrace();
         }
         System.out.println(filePath);
-        try {
-            thread.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        thread.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
+
 
     }
 
