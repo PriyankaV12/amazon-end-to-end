@@ -6,13 +6,51 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="/Users/priyankaverma/amazonFramework(failed)" verbose="0">
     <classes>
+      <class name="tests.errorValidation">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closing"/>
+          <include name="validation"/>
+        </methods>
+      </class> <!-- tests.errorValidation -->
+      <class name="tests.signInFunctionality">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="validLogin"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- tests.signInFunctionality -->
       <class name="tests.shoppingFunctionality">
         <methods>
           <include name="launchApplication"/>
           <include name="addProductAfterSignIn"/>
+          <include name="charText"/>
+          <include name="filterElements"/>
+          <include name="navigation"/>
+          <include name="filterFunctionality"/>
           <include name="closing"/>
+          <include name="editQuantity"/>
+          <include name="buyNowButton"/>
+          <include name="searchResult"/>
+          <include name="sortFunctionality"/>
+          <include name="removeProductsFromCart"/>
+          <include name="invalidText"/>
+          <include name="addProductWithoutSignIn"/>
         </methods>
       </class> <!-- tests.shoppingFunctionality -->
+      <class name="tests.homePage">
+        <methods>
+          <include name="categorizedProducts"/>
+          <include name="launchApplication"/>
+          <include name="productLinks"/>
+          <include name="footerSection"/>
+          <include name="homePageSignIn"/>
+          <include name="closing"/>
+          <include name="validText"/>
+          <include name="productsContainerDisplay"/>
+          <include name="hovering"/>
+        </methods>
+      </class> <!-- tests.homePage -->
     </classes>
   </test> <!-- /Users/priyankaverma/amazonFramework(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
