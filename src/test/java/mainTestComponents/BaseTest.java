@@ -61,7 +61,8 @@ public class BaseTest  extends gettersAndSetters{
     public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
         File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
-        String filePathToSave =System.getProperty("user.dir") +"/" + testCaseName + ".png";
+//        String filePathToSave =System.getProperty("user.dir") +"/" + testCaseName + ".png";
+        String filePathToSave = "job/amazon-framework-project/ws/";
         File file = new File(filePathToSave);
         FileUtils.copyFile(source, file);
         return filePathToSave;
