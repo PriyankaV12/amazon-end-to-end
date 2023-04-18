@@ -7,11 +7,11 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="/Users/priyankaverma/amazonFramework">
         <classes>
-<!--            <class name="tests.homePage"/>-->
-<!--            <class name="tests.errorValidation"/>-->
+            <class name="tests.homePage"/>
+            <class name="tests.errorValidation"/>
             <class name="tests.signInFunctionality"/>
             <class name="tests.shoppingFunctionality"/>
-<!--            <class name="tests.productDetails"/>-->
+            <class name="tests.productDetails"/>
         </classes>
     </test>
 </suite>
