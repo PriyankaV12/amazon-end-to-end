@@ -16,7 +16,7 @@ public class secretGetterSetter {
     }
 
     public secretValues mainS() throws IOException {
-        File file = new File("/Users/priyankaverma/amazonFramework/src/main/java/resources/secrets.yaml");
+        File file = new File(System.getProperty("user.dir") + "/src/main/java/resources/secrets.yaml");
         ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
 
         secretValues secrets =objectMapper.readValue(file,secretValues.class);

@@ -8,7 +8,7 @@ public class extentReports {
     public static ExtentReports reports()
     {
 
-        String path = "/Users/priyankaverma/amazonFramework";
+        String path = System.getProperty("user.dir");
         ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 
         //set configurations of report
@@ -17,7 +17,6 @@ public class extentReports {
 
         ExtentReports extent = new ExtentReports();
         extent.attachReporter(reporter);
-       // extent.createTest("MyfirstTest");
         extent.setSystemInfo("Testing", "Amazon Website");
         return extent;
 

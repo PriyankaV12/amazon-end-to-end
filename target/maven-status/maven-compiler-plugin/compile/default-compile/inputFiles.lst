@@ -3,4 +3,5 @@
 /Users/priyankaverma/amazonFramework/src/main/java/pageObjects/errorVerify.java
 /Users/priyankaverma/amazonFramework/src/main/java/resources/extentReports.java
 /Users/priyankaverma/amazonFramework/src/main/java/pageObjects/landingPage.java
-/Users/priyankaverma/amazonFramework/src/main/java/pageObjects/shoppingPage.java
+/Users/priyankaverma/amazonFramework/src/main/java/pageObjects/shoppingPageAfterSignIn.java
+/Users/priyankaverma/amazonFramework/src/main/java/pageObjects/productDetailsPage.java

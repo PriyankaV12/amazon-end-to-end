@@ -8,18 +8,18 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">All Test Suite</th></tr>
-<tr><td><a href="#t0">/Users/priyankaverma/amazonFramework</a></td><td class="num">12</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">379,701</td><td></td><td></td></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">13,201</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">/Users/priyankaverma/amazonFramework &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">tests.homePage</td><td><a href="#m0">validUsername</a></td><td rowspan="1">1680106188587</td><td rowspan="1">5082</td></tr><tr><th colspan="4">/Users/priyankaverma/amazonFramework &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.errorValidation</td><td><a href="#m1">validation</a></td><td rowspan="1">1680106081190</td><td rowspan="1">1144</td></tr><tr class="passedodd"><td rowspan="6">tests.homePage</td><td><a href="#m2">createNewAccount</a></td><td rowspan="1">1680106095300</td><td rowspan="1">3323</td></tr><tr class="passedodd"><td><a href="#m3">invalidUsername</a></td><td rowspan="1">1680106112503</td><td rowspan="1">5395</td></tr><tr class="passedodd"><td><a href="#m4">leavingPasswordBlank</a></td><td rowspan="1">1680106129809</td><td rowspan="1">4305</td></tr><tr class="passedodd"><td><a href="#m5">leavingUsernameBlank</a></td><td rowspan="1">1680106145392</td><td rowspan="1">2864</td></tr><tr class="passedodd"><td><a href="#m6">validLogin</a></td><td rowspan="1">1680106163618</td><td rowspan="1">13248</td></tr><tr class="passedodd"><td><a href="#m7">validUsername</a></td><td rowspan="1">1680106206720</td><td rowspan="1">6232</td></tr><tr class="passedeven"><td rowspan="1">tests.homePage2</td><td><a href="#m8">landingPage</a></td><td rowspan="1">1680105993263</td><td rowspan="1">74912</td></tr><tr class="passedodd"><td rowspan="4">tests.shoppingTest</td><td><a href="#m9">addProductToCart</a></td><td rowspan="1">1680106225531</td><td rowspan="1">29398</td></tr><tr class="passedodd"><td><a href="#m10">buyNowButton</a></td><td rowspan="1">1680106267489</td><td rowspan="1">16961</td></tr><tr class="passedodd"><td><a href="#m11">editQuantity</a></td><td rowspan="1">1680106298006</td><td rowspan="1">26600</td></tr><tr class="passedodd"><td><a href="#m12">removeProductsFromCart</a></td><td rowspan="1">1680106336365</td><td rowspan="1">21999</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">cucumber.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1681578915391</td><td rowspan="1">12490</td></tr></tbody>
 </table>
-<h2>/Users/priyankaverma/amazonFramework</h2><h3 id="m0">tests.homePage#validUsername</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+<h2>Command line test</h2><h3 id="m0">cucumber.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;functional testing of Amazon home page&quot;</td><td>&quot;check functionality of Amazon&apos;s Home page.&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6ed569bb8329a3fe2e4be1216f7e149, actions {actions=[org.openqa.selenium.interactions.Sequence@6e1b7293]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54936/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6ed569bb8329a3fe2e4be1216f7e149
+Command: [6baf13ee0eff3921dd79aac968cce9e7, actions {actions=[org.openqa.selenium.interactions.Sequence@75e27856]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:65408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65408/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6baf13ee0eff3921dd79aac968cce9e7
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -50,58 +50,107 @@ Session ID: a6ed569bb8329a3fe2e4be1216f7e149
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-	at pageObjects.landingPage.signInHover(landingPage.java:73)
-	at tests.homePage.validUsername(homePage.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+	at pageObjects.landingPage.signIn(landingPage.java:87)
+	at stepDefinition.stepDefinition.click_on_SignIn_button_and_navigate_back_to_home_page(stepDefinition.java:28)
+	at ✽.click on SignIn button and navigate back to home page(file:///Users/priyankaverma/amazonFramework/src/test/java/cucumber/landingPage.feature:9)
 	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.2&apos;
 Driver info: driver.version: RemoteWebDriver
 		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
 		at org.openqa.selenium.json.Json.toJson(Json.java:40)
-		... 32 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:172)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+		at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+		at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+		at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+		at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+		at pageObjects.landingPage.signIn(landingPage.java:87)
+		at stepDefinition.stepDefinition.click_on_SignIn_button_and_navigate_back_to_home_page(stepDefinition.java:28)
+		at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+		at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+		at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+		at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+		at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+		at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+		at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+		at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+		at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+		at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+		at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+		at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+		at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+		at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+		at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+		at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+		at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+		at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+		at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
-	... 53 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-link\-accountList&quot;}
-  (Session info: chrome=111.0.5563.146)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:172)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+	at pageObjects.landingPage.signIn(landingPage.java:87)
+	at stepDefinition.stepDefinition.click_on_SignIn_button_and_navigate_back_to_home_page(stepDefinition.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;nav-action-button&apos;][1]&quot;}
+  (Session info: chrome=112.0.5615.49)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.2.1&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6ed569bb8329a3fe2e4be1216f7e149, findElement {using=id, value=nav-link-accountList}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.146, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:54936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54936/devtoo..., se:cdpVersion: 111.0.5563.146, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6ed569bb8329a3fe2e4be1216f7e149
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Command: [6baf13ee0eff3921dd79aac968cce9e7, findElement {using=xpath, value=//a[@class=&apos;nav-action-button&apos;][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/1j/v9fd2x_s65v...}, goog:chromeOptions: {debuggerAddress: localhost:65408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65408/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6baf13ee0eff3921dd79aac968cce9e7
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -110,29 +159,17 @@ Session ID: a6ed569bb8329a3fe2e4be1216f7e149
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.getWrappedElement(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getWrappedElement(Unknown Source)
 	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:269)
 	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:218)
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
-	... 58 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.errorValidation#validation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.homePage#createNewAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.homePage#invalidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.homePage#leavingPasswordBlank</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.homePage#leavingUsernameBlank</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.homePage#validLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.homePage#validUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.homePage2#landingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.shoppingTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">tests.shoppingTest#buyNowButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">tests.shoppingTest#editQuantity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">tests.shoppingTest#removeProductsFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 97 more
+... Removed 92 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

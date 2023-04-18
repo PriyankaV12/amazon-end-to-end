@@ -12,7 +12,7 @@
 <!--            </run>-->
 <!--        </groups>-->
         <classes>
-<!--            <class name="tests.grouping"/>-->
+            <class name="tests.signInFunctionality"/>
         </classes>
     </test>
 </suite>

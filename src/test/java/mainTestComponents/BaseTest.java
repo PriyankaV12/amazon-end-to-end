@@ -26,14 +26,9 @@ public class BaseTest  extends gettersAndSetters{
     public signInPage sign;
 
 
-
-
-
-
     public BaseTest() throws Exception {
 
     }
-
 
     public WebDriver initializeDriver() throws IOException {
 
