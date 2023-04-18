@@ -64,7 +64,7 @@ public class listeners extends BaseTest implements ITestListener
 
         String filePath = null;
         try {
-            filePath = getScreenshot(result.getMethod().getMethodName(), driver);  // this driver got life from line 47
+            filePath = getScreenshot(result.getMethod().getMethodName(), driver);  // this driver got life from line 56
         } catch (IOException e) {
             e.printStackTrace();
         }
