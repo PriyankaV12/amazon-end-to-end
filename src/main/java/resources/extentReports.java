@@ -17,7 +17,7 @@ public class extentReports {
         //set configurations of report
         reporter.config().setReportName("Amazon Landing page Testing");
         reporter.config().setDocumentTitle("Landing page");
-        reporter.config().setAutoCreateRelativePathMedia(true);
+//        reporter.config().setAutoCreateRelativePathMedia(true);
 
         ExtentReports extent = new ExtentReports();
         extent.attachReporter(reporter);
