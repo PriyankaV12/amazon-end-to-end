@@ -8,7 +8,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class gettersAndSetters {
+public class gettersAndSetters extends deriveValues {
+
 
     public ObjectMapper objectMapper=new ObjectMapper(new YAMLFactory());
 

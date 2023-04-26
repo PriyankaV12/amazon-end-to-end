@@ -16,7 +16,6 @@ public class homePage extends BaseTest {
     public  landingPage lp;
 
     public homePage() throws Exception {
-//        this.values= mainT();
         gettersAndSetters gobj= new gettersAndSetters();
 
         this.values = gobj.mainT();
@@ -36,6 +35,7 @@ public class homePage extends BaseTest {
     {
         landingPage lp = new landingPage(driver);
         lp.textBox(values.getItem());
+
     }
 
     @Test
@@ -43,7 +43,7 @@ public class homePage extends BaseTest {
     {
         landingPage lp = new landingPage(driver);
         int count = lp.footerLinkCount();
-        System.out.println(count);
+        Assert.assertEquals(count, values.getFooterCount());
         lp.firstColumnTitles();
         lp.secondColumnTitles();
         lp.setCopyrightSection();

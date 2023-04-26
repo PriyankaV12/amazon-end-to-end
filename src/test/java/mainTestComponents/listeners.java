@@ -10,9 +10,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import resources.extentReports;
-
 import java.io.IOException;
-import java.sql.SQLOutput;
 
 public class listeners extends BaseTest implements ITestListener
 {
@@ -28,7 +26,7 @@ public class listeners extends BaseTest implements ITestListener
     public void onTestStart(ITestResult result) {
 
         test = extent.createTest(result.getMethod().getMethodName());
-       // test = extent.createTest("Verify Landing page");
+
         //to assign unique id to the tests
         thread.set(test);
         test.info(MarkupHelper.createLabel("Extent", ExtentColor.BLUE));
@@ -49,7 +47,6 @@ public class listeners extends BaseTest implements ITestListener
     public void onTestFailure(ITestResult result)
     {
         thread.get().fail(result.getThrowable());
-        // give life to the driver and send it to getScreenshot method
 
         try
         {
@@ -64,7 +61,7 @@ public class listeners extends BaseTest implements ITestListener
 
         String filePath = null;
         try {
-            filePath = getScreenshot(result.getMethod().getMethodName(), driver);  // this driver got life from line 56
+            filePath = getScreenshot(result.getMethod().getMethodName(), driver);
         } catch (IOException e) {
             e.printStackTrace();
         }

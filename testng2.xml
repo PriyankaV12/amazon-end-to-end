@@ -6,11 +6,11 @@
         <listener class-name="mainTestComponents.listeners"/>
     </listeners>
     <test verbose="2" preserve-order="true" name="/Users/priyankaverma/amazonFramework">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="Smoke"/>-->
-<!--            </run>-->
-<!--        </groups>-->
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
         <classes>
             <class name="tests.signInFunctionality"/>
         </classes>

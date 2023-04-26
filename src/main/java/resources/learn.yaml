@@ -13,13 +13,11 @@ expectedlinkCount: 38
 deliverText: Deliver to
 productNeeded : HBNO Tea Tree Oil for Skin 4oz (120 ml) - 100% Pure Tea Tree Oil - Bring Refreshing Aroma of Tea Trea Essential Oil - Perfect Tea Tree Oil for Acne & Skin Therapy
 key : Tea Tree Oil
-#quantityText : 1
 quantity : 3
 itemRemovedText : HBNO Tea Tree Oil for Skin 4oz (120 ml) - 100% Pure Tea Tree Oil... was removed from Shopping Cart.
 signIn : Sign in
 invalidText: "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
 resultText: 1-48 of 69 results for "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
-#resultText: "&*((&%#@%LOSJCFLDSEIvcvhndbv&*))*$##$%^"
 charText: 67299161781191
 noResultText: No results for
 sortText: Newest Arrivals

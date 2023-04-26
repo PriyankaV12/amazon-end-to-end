@@ -22,7 +22,7 @@ public class stepDefinition extends BaseTest {
     }
 
     @Given("^click on SignIn button and navigate back to home page$")
-    public void click_on_SignIn_button_and_navigate_back_to_home_page()
+    public void clicked_on_SignIn_button_and_navigate_back_to_home_page()
     {
         lp.signInHover();
         lp.signIn();

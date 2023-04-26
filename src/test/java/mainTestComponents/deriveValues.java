@@ -39,6 +39,7 @@ public class deriveValues {
     private String deals;
     private String textAfterValidSearch;
     private String visibleText;
+    private int footerCount;
 
     //setters
     public void setBrowser(String b) {
@@ -201,6 +202,11 @@ public class deriveValues {
     {
         this.secretConfig = st;
     }
+
+    public void setFooterCount(int fc)
+    {
+        this.footerCount = fc;
+    }
     //getters
 
     public String getBrowser() {
@@ -362,5 +368,10 @@ public class deriveValues {
     public secretValues getSecretConfig()
     {
         return secretConfig;
+    }
+
+    public int getFooterCount()
+    {
+        return footerCount;
     }
 }

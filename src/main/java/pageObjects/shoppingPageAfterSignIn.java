@@ -90,7 +90,6 @@ public class shoppingPageAfterSignIn extends components {
     @FindBy(css = ".a-size-extra-large.a-spacing-micro")
     WebElement dealsLink;
 
-   // driver.findElement(By.cssSelector(".a-button-inner")).click();
     @FindBy(css = ".a-button-inner")
     WebElement innerButton;
 

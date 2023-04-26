@@ -21,53 +21,39 @@ public class signInPage extends components {
         PageFactory.initElements(driver, this);
     }
 
-    //driver.findElement(By.xpath("//a[@class='nav-action-button'][1]")).click();
- //   @FindBy(xpath = "//a[@class='nav-action-button'][1]")
     @FindBy(css = "span[class='nav-action-inner']")
     WebElement signInButton;
 
-    //driver.findElement(By.id("ap_email")).sendKeys("pythontesting3134@gmail.com");
     @FindBy(id = "ap_email")
     WebElement userEmail;
 
-    //driver.findElement(By.id("continue")).click();
     @FindBy(id = "continue")
     WebElement continueButton;
 
-    // driver.findElement(By.id("ap_password")).sendKeys("Atesting2#");
     @FindBy(id = "ap_password")
     WebElement userPassword;
 
-    //driver.findElement(By.id("auth-signin-button")).click();
     @FindBy(id = "auth-signin-button")
     WebElement finalSignIn;
 
-    //String text = driver.findElement(By.id("nav-link-accountList-nav-line-1")).getText();
     @FindBy(id = "nav-link-accountList-nav-line-1")
     WebElement userText;
 
-    //driver.findElement(By.cssSelector("#nav-item-signout")).click();
     @FindBy(css = "#nav-item-signout")
     WebElement signOutButton;
 
-    //  String errorMessage = driver.findElement(By.cssSelector(".a-alert-heading")).getText();
     @FindBy(css = "h4[class='a-alert-heading']")
-  //  @FindBy(xpath = "//*[@id='auth-warning-message-box']/div/h4")
     WebElement errorMessage;
 
-    //driver.findElement(By.id("createAccountSubmit")).click();
     @FindBy(id = "createAccountSubmit")
     WebElement createAccount;
 
-    // String createAccount = driver.findElement(By.cssSelector(".a-spacing-small:first-of-type")).getText();
     @FindBy(css = ".a-spacing-small:first-of-type")
     WebElement createAccountText;
 
-    //String enterEmail = driver.findElement(By.cssSelector(".a-alert-content")).getText();
     @FindBy(css = ".a-alert-content")
     WebElement emailError;
 
-    //String enterPassword = driver.findElement(By.cssSelector(".a-box-inner.a-alert-container")).getText();
     @FindBy(css = ".a-box-inner.a-alert-container")
     WebElement passwordError;
 

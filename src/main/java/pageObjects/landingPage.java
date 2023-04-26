@@ -28,7 +28,7 @@ public class landingPage extends components {
     @FindBy(id = "nav-link-accountList")
     WebElement signInTab;
 
-    @FindBy(xpath = "//a[@class='nav-action-button'][1]")
+    @FindBy(xpath = "//a[@data-nav-ref='nav_signin']")
     WebElement signInButton;
 
     @FindBy(linkText = "Prime")
@@ -70,7 +70,6 @@ public class landingPage extends components {
     @FindBy(css = "div[data-card-metrics-id$='ameyal-product-shoveler_desktop-gateway-btf_1']")
     WebElement pageBanner;
 
-    //driver.findElements(By.cssSelector(".a-section.as-title-block")
     @FindBy(css = ".a-section.as-title-block")
     List<WebElement> productDisplay;
 
@@ -88,11 +87,6 @@ public class landingPage extends components {
         driver.navigate().back();
     }
 
-//    public void prime() {
-//        action = new Actions(this.driver);
-//        action.moveToElement(primeTab).build().perform();
-//
-//        }
 
     public void getUrl(String url) {
         driver.get(url);
