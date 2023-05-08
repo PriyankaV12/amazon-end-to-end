@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+    tools {
+        maven '3.9.1'
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+
+                '''
+            }
+        }
+
+        stage('Download ChromeDriver') {
+            steps {
+                sh "curl -o chromedriver_mac64.zip https://chromedriver.storage.googleapis.com/112.0.5615.49/chromedriver_mac64.zip"
+                sh "unzip -o ./chromedriver_mac64.zip -d ./"
+                sh "chmod +x ./chromedriver"
+            }
+        }
+
+        stage ('Checkout'){
+            steps{
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[
+                        url: 'https://github.com/PriyankaV12/amazon-end-to-end.git',
+
+                    ]]
+                ])
+            }
+        }
+        stage ('Build') {
+            steps {
+                sh 'ls -al'
+                sh 'mvn test'
+
+            }
+
+        }
+
+        stage('Publish HTML Report') {
+    steps {
+            publishHTML([allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: false,
+            reportDir: 'target',
+            reportFiles: 'index.html',
+            reportName: 'HTML Report01',
+        ])
+    }
+}
+
+    }
+}
