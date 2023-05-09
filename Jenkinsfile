@@ -3,7 +3,27 @@ pipeline {
     tools {
         maven '3.9.1'
     }
+
+
     stages {
+
+        stage('Create secrets.yaml') {
+            environment{
+                vpass = credentials('JENKINS-V-USERNAME')
+                ivpass = credentials('JENKINS-IN-USERNAME')
+                }
+                steps {
+
+                // Create secrets.yaml file
+                sh 'touch src/main/java/resources/secrets.yaml'
+                // Add values to secrets.yaml
+                sh 'echo "validEmail: pythontesting3134@gmail.com" > src/main/java/resources/secrets.yaml'
+                sh 'echo "validPassword: $vpass" >> src/main/java/resources/secrets.yaml'
+                sh 'echo "inValidEmail: pythontesting@gmail.com" >> src/main/java/resources/secrets.yaml'
+                sh 'echo "inValidPassword: $ivpass" >> src/main/java/resources/secrets.yaml'
+            }
+        }
+
         stage ('Initialize') {
             steps {
                 sh '''
@@ -34,7 +54,7 @@ pipeline {
                 ])
             }
         }
-        stage ('Build') {
+        stage ('Run Tests') {
             steps {
                 sh 'ls -al'
                 sh 'mvn test'
